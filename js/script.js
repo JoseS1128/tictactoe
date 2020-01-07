@@ -6,6 +6,7 @@
 
 
 $("#button1").click(function() {
+    (".tile1").html("<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Circle_-_black_simple.svg/1200px-Circle_-_black_simple.svg.png'>");
     performLogic("#button1","#tile1");
 });
 
